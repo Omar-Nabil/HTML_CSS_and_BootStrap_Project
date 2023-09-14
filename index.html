@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angora</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <!-- Start Fixed  -->
+    <div class="settings z-2">
+        <div class="layer bg-white bg-opacity-25 position-absolute start-0 top-0 w-100 h-100"></div>
+        <a href="#"><i class="fa-solid fa-gears fa-lg text-white px-2 py-3"></i></a>
+    </div>
+    <!-- End Fixed  -->
+    <!-- Start Navbar  -->
+    <nav id="navbar-example" class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-white p-3">
+        <div class="container">
+            <a class="navbar-brand text-uppercase fw-bold" href="#">
+                <img src="images/logo-red.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-twitter fa-lg"></i>
+                        </a>
+                    </li>
+                    <li class="ms-1">
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-facebook-f fa-lg"></i>
+                        </a>
+                    </li>
+                    <li class="ms-1">
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar  -->
+    <!-- Start home  -->
+    <section id="home" class="min-vh-100 py-0 position-relative">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container min-vh-100">
+                        <div class="text w-50 text-center">
+                            <h1 class="display-1 text-white fw-bold">We build great brands.</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container min-vh-100">
+                        <div class="text w-50 text-center">
+                            <h1 class="display-1 text-white fw-bold">Focus On Strategy</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container min-vh-100">
+                        <div class="text w-50 text-center">
+                            <h1 class="display-1 text-white fw-bold">Advanced in digital works.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <i class="icon fa-solid fa-arrow-right position-relative"></i>
+                <div class="layer start-0 top-0 position-absolute w-100 h-100 z-0"></div>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <i class="icon fa-solid fa-arrow-left position-relative"></i>
+                <div class="layer start-0 top-0 position-absolute w-100 h-100 z-0"></div>
+            </button>
+        </div>
+        <!-- <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container min-vh-100">
+                        <div class="text w-50 text-center">
+                            <h1 class="display-1 text-white fw-bold">We build great brands.</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+                        <div class="text w-50 text-center">
+                            <h1 class="display-1 text-white fw-bold">Focus On Strategy</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+                        <div class="text w-50 text-center">
+                            <h1 class="display-1 text-white fw-bold">Advanced in digital works.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <i class="icon fa-solid fa-arrow-right position-relative"></i>
+                <div class="layer start-0 top-0 position-absolute w-100 h-100 z-0"></div>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <i class="icon fa-solid fa-arrow-left position-relative"></i>
+                <div class="layer start-0 top-0 position-absolute w-100 h-100 z-0"></div>
+            </button>
+        </div> -->
+        <a class="about" href="#about"><span></span></a>
+    </section>
+    <!-- End home  -->
+    <!-- Start about -->
+    <section id="about">
+        <div class="container">
+            <div class="cons text-center">
+                <h2 class="special-heading py-4">A</h2>
+                <p class="display-1 fw-bold">About As</p>
+                <div></div>
+                <p class="w-75 text-secondary mx-auto mt-2">Pellentesque elementum libero enim, eget gravida nunc
+                    laoreet et.
+                    Nullam ac enim
+                    auctor,
+                    fringilla
+                    risus at, imperdiet
+                    turpis. Pellentesque elementum libero enim.</p>
+            </div>
+            <div class="row row-cols-md-2 row-cols-1 py-5">
+                <div class="col text-secondary p-3">
+                    <p>Pellentesque vel elit egestas, pretium est ac, convallis orci. Vivamus sem nisl, tristique vel
+                        fringilla vitae,
+                        efficitur at eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat quis gravida
+                        pulvinar. Phasellus vel eros
+                        porta, blandit dui ac, viverra felis.</p>
+                    <p>Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna posuere volutpat. Mauris ut dui sit
+                        amet elit fermentum
+                        fermentum. Fusce tincidunt diam at bibendum porta.</p>
+                    <p>Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna. Vivamus congue diam sapien, eu
+                        pellentesque ipsum
+                        ultricies quis.</p>
+                </div>
+                <div class="col p-3">
+                    <div>
+                        <div class="text d-flex justify-content-between align-items-center my-0" style="width: 80%;">
+                            <p class="my-0">Branding</p>
+                            <p class="my-0">80%</p>
+                        </div>
+                        <span><span style="width: 80%;"></span></span>
+                    </div>
+                    <div class="my-4">
+                        <div class="text d-flex justify-content-between align-items-center my-0" style="width: 95%;">
+                            <p class="my-0">Web Design</p>
+                            <p class="my-0">95%</p>
+                        </div>
+                        <span><span style="width: 95%;"></span></span>
+                    </div>
+                    <div class="my-4">
+                        <div class="text d-flex justify-content-between align-items-center my-0" style="width: 85%;">
+                            <p class="my-0">Graphic Design</p>
+                            <p class="my-0">85%</p>
+                        </div>
+                        <span><span style="width: 85%;"></span></span>
+                    </div>
+                    <div>
+                        <div class="text d-flex justify-content-between align-items-center my-0" style="width: 70%;">
+                            <p class="my-0">Development</p>
+                            <p class="my-0">70%</p>
+                        </div>
+                        <span><span style="width: 70%;"></span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End about -->
+    <!-- Start team -->
+    <section id="team" class="py-0">
+        <div class="container">
+            <div class="cons py-5 text-center">
+                <h2 class="special-heading py-4">O</h2>
+                <p class="display-1 fw-bold">Our Team</p>
+                <div></div>
+                <p class="w-75 text-secondary mx-auto mt-2">Pellentesque elementum libero enim, eget gravida nunc
+                    laoreet et.
+                    Nullam ac enim
+                    auctor,
+                    fringilla
+                    risus at, imperdiet
+                    turpis. Pellentesque elementum libero enim.</p>
+            </div>
+            <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 row-cols-1 gy-4">
+                <div class="col">
+                    <div class="image overflow-hidden position-relative">
+                        <div class="layer position-absolute start-0 top-0 w-100 h-100 z-2"></div>
+                        <div class="logs z-2">
+                            <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                            <a href="#"><i class="fa-solid fa-baseball fa-lg"></i></a>
+                        </div>
+                        <img src="images/member-1.jpg" alt="" class="img-fluid" width="100%">
+                    </div>
+                    <div class="text text-center mt-3">
+                        <p class="my-0 py-0 h5 fw-bold">Michael Broad</p>
+                        <p class="text-secondary my-0 py-0">Web Designer</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image overflow-hidden position-relative">
+                        <div class="layer position-absolute start-0 top-0 w-100 h-100 z-2"></div>
+                        <div class="logs z-2">
+                            <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                            <a href="#"><i class="fa-solid fa-baseball fa-lg"></i></a>
+                        </div>
+                        <img src="images/member-2.jpg" alt="" class="img-fluid" width="100%">
+                    </div>
+                    <div class="text text-center mt-3">
+                        <p class="my-0 py-0 h5 fw-bold">Jeannette Crow</p>
+                        <p class="text-secondary my-0 py-0">CEO Founder</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image overflow-hidden position-relative">
+                        <div class="layer position-absolute start-0 top-0 w-100 h-100 z-2"></div>
+                        <div class="logs z-2">
+                            <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                            <a href="#"><i class="fa-solid fa-baseball fa-lg"></i></a>
+                        </div>
+                        <img src="images/member-3.jpg" alt="" class="img-fluid" width="100%">
+                    </div>
+                    <div class="text text-center mt-3">
+                        <p class="my-0 py-0 h5 fw-bold">Martin Lawrence</p>
+                        <p class="text-secondary my-0 py-0">App Developer</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image overflow-hidden position-relative">
+                        <div class="layer position-absolute start-0 top-0 w-100 h-100 z-2"></div>
+                        <div class="logs z-2">
+                            <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                            <a href="#"><i class="fa-solid fa-baseball fa-lg"></i></a>
+                        </div>
+                        <img src="images/member-4.jpg" alt="" class="img-fluid" width="100%">
+                    </div>
+                    <div class="text text-center mt-3">
+                        <p class="my-0 py-0 h5 fw-bold">Isabella Dowson</p>
+                        <p class="text-secondary my-0 py-0">Creative Director</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contect-us d-flex justify-content-around align-items-center mb-4">
+                <h3>Do you have any ideas?</h3>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+    </section>
+    <!-- End team -->
+    <!-- Start Services  -->
+    <section id="services">
+        <div class="container">
+            <div class="cons  text-center">
+                <h2 class="special-heading py-4">S</h2>
+                <p class="display-1 fw-bold">Services</p>
+                <div></div>
+                <p class="w-75 text-secondary mx-auto mt-2">Pellentesque elementum libero enim, eget gravida nunc
+                    laoreet et.
+                    Nullam ac enim
+                    auctor,
+                    fringilla
+                    risus at, imperdiet
+                    turpis. Pellentesque elementum libero enim.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 py-5 gy-2">
+                <div class="col">
+                    <div class="item d-flex justify-content-between">
+                        <div class="icon px-4 py-1">
+                            <i class="fa-solid fa-desktop fa-lg di"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Responsive Layout</h3>
+                            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque
+                                dissentias ut.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item d-flex justify-content-between">
+                        <div class="icon px-4 py-1">
+                            <i class="fa-solid fa-pen-ruler fa-lg"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Responsive Layout</h3>
+                            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque
+                                dissentias ut.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item d-flex justify-content-between">
+                        <div class="icon px-4 py-1">
+                            <i class="fa-regular fa-flag fa-lg"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Font Awesome Icons</h3>
+                            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque
+                                dissentias ut.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item d-flex justify-content-between">
+                        <div class="icon px-4 py-1">
+                            <i class="fa-regular fa-newspaper fa-lg"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Ajax Portfolio</h3>
+                            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque
+                                dissentias ut.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item d-flex justify-content-between">
+                        <div class="icon px-4 py-1">
+                            <i class="fa-solid fa-gear fa-xl"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Color Options</h3>
+                            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque
+                                dissentias ut.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item d-flex justify-content-between">
+                        <div class="icon px-4 py-1">
+                            <i class="fa-solid fa-headset fa-xl"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Audio Support</h3>
+                            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque
+                                dissentias ut.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item d-flex justify-content-between">
+                        <div class="icon px-4 py-1">
+                            <i class="fa-solid fa-file-signature fa-xl"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Well Documented</h3>
+                            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque
+                                dissentias ut.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item d-flex justify-content-between">
+                        <div class="icon px-4 py-1">
+                            <i class="fa-solid fa-video fa-xl"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Background Videos</h3>
+                            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque
+                                dissentias ut.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="item d-flex justify-content-between">
+                        <div class="icon px-4 py-1">
+                            <i class="fa-solid fa-sliders fa-xl"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Intro Slider</h3>
+                            <p>Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius utroque
+                                dissentias ut.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services  -->
+    <!-- Start Client  -->
+    <section id="client">
+        <div class="container">
+            <div class="cons  text-center mb-5">
+                <h2 class="special-heading py-4">C</h2>
+                <p class="display-1 fw-bold">Client Reviews</p>
+                <div></div>
+                <p class="w-75 text-secondary mx-auto mt-2">Pellentesque elementum libero enim, eget gravida nunc
+                    laoreet et.
+                    Nullam ac enim
+                    auctor,
+                    fringilla
+                    risus at, imperdiet
+                    turpis. Pellentesque elementum libero enim.</p>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1">
+                        <img src="images/client-1.png" class="w-100" alt="">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2">
+                        <img src="images/client-2.png" class="w-100" alt="">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3">
+                        <img src="images/client-3.png" class="w-100" alt="">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 3">
+                        <img src="images/client-4.png" class="w-100" alt="">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 3">
+                        <img src="images/client-5.png" class="w-100" alt="">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 3">
+                        <img src="images/client-6.png" class="w-100" alt="">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                        aria-label="Slide 3">
+                        <img src="images/client-7.png" class="w-100" alt="">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                        aria-label="Slide 3">
+                        <img src="images/client-8.png" class="w-100" alt="">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+                        aria-label="Slide 3">
+                        <img src="images/client-9.png" class="w-100" alt="">
+                    </button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center">
+                        <div class="w-50 mx-auto">
+                            <p class="text-black fw-bold my-0">omar nabil</p>
+                            <p class="text-secondary my-0">from egypt</p>
+                            <div class="text-secondary mt-2">
+                                <i class="fa-solid fa-quote-left fa-2xl d-inline text-black"></i>
+                                <p class="d-inline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+                                    accusamus ratione ut
+                                    quibusdam quidem! Id animi accusamus minima quidem temporibus culpa, sequi qui nihil
+                                    saepe
+                                    perferendis dolorem inventore laboriosam eaque.</p>
+                                <i class="fa-solid fa-quote-right fa-2xl d-inline text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="w-50 mx-auto">
+                            <p class="text-black fw-bold my-0">omar nabil</p>
+                            <p class="text-secondary my-0">from egypt</p>
+                            <div class="text-secondary mt-2">
+                                <i class="fa-solid fa-quote-left fa-2xl d-inline text-black"></i>
+                                <p class="d-inline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+                                    accusamus ratione ut
+                                    quibusdam quidem! Id animi accusamus minima quidem temporibus culpa, sequi qui nihil
+                                    saepe
+                                    perferendis dolorem inventore laboriosam eaque.</p>
+                                <i class="fa-solid fa-quote-right fa-2xl d-inline text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="w-50 mx-auto">
+                            <p class="text-black fw-bold my-0">omar nabil</p>
+                            <p class="text-secondary my-0">from egypt</p>
+                            <div class="text-secondary mt-2">
+                                <i class="fa-solid fa-quote-left fa-2xl d-inline text-black"></i>
+                                <p class="d-inline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+                                    accusamus ratione ut
+                                    quibusdam quidem! Id animi accusamus minima quidem temporibus culpa, sequi qui nihil
+                                    saepe
+                                    perferendis dolorem inventore laboriosam eaque.</p>
+                                <i class="fa-solid fa-quote-right fa-2xl d-inline text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="w-50 mx-auto">
+                            <p class="text-black fw-bold my-0">omar nabil</p>
+                            <p class="text-secondary my-0">from egypt</p>
+                            <div class="text-secondary mt-2">
+                                <i class="fa-solid fa-quote-left fa-2xl d-inline text-black"></i>
+                                <p class="d-inline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+                                    accusamus ratione ut
+                                    quibusdam quidem! Id animi accusamus minima quidem temporibus culpa, sequi qui nihil
+                                    saepe
+                                    perferendis dolorem inventore laboriosam eaque.</p>
+                                <i class="fa-solid fa-quote-right fa-2xl d-inline text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="w-50 mx-auto">
+                            <p class="text-black fw-bold my-0">omar nabil</p>
+                            <p class="text-secondary my-0">from egypt</p>
+                            <div class="text-secondary mt-2">
+                                <i class="fa-solid fa-quote-left fa-2xl d-inline text-black"></i>
+                                <p class="d-inline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+                                    accusamus ratione ut
+                                    quibusdam quidem! Id animi accusamus minima quidem temporibus culpa, sequi qui nihil
+                                    saepe
+                                    perferendis dolorem inventore laboriosam eaque.</p>
+                                <i class="fa-solid fa-quote-right fa-2xl d-inline text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="w-50 mx-auto">
+                            <p class="text-black fw-bold my-0">omar nabil</p>
+                            <p class="text-secondary my-0">from egypt</p>
+                            <div class="text-secondary mt-2">
+                                <i class="fa-solid fa-quote-left fa-2xl d-inline text-black"></i>
+                                <p class="d-inline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+                                    accusamus ratione ut
+                                    quibusdam quidem! Id animi accusamus minima quidem temporibus culpa, sequi qui nihil
+                                    saepe
+                                    perferendis dolorem inventore laboriosam eaque.</p>
+                                <i class="fa-solid fa-quote-right fa-2xl d-inline text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="w-50 mx-auto">
+                            <p class="text-black fw-bold my-0">omar nabil</p>
+                            <p class="text-secondary my-0">from egypt</p>
+                            <div class="text-secondary mt-2">
+                                <i class="fa-solid fa-quote-left fa-2xl d-inline text-black"></i>
+                                <p class="d-inline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+                                    accusamus ratione ut
+                                    quibusdam quidem! Id animi accusamus minima quidem temporibus culpa, sequi qui nihil
+                                    saepe
+                                    perferendis dolorem inventore laboriosam eaque.</p>
+                                <i class="fa-solid fa-quote-right fa-2xl d-inline text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="w-50 mx-auto">
+                            <p class="text-black fw-bold my-0">omar nabil</p>
+                            <p class="text-secondary my-0">from egypt</p>
+                            <div class="text-secondary mt-2">
+                                <i class="fa-solid fa-quote-left fa-2xl d-inline text-black"></i>
+                                <p class="d-inline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+                                    accusamus ratione ut
+                                    quibusdam quidem! Id animi accusamus minima quidem temporibus culpa, sequi qui nihil
+                                    saepe
+                                    perferendis dolorem inventore laboriosam eaque.</p>
+                                <i class="fa-solid fa-quote-right fa-2xl d-inline text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="w-50 mx-auto">
+                            <p class="text-black fw-bold my-0">omar nabil</p>
+                            <p class="text-secondary my-0">from egypt</p>
+                            <div class="text-secondary mt-2">
+                                <i class="fa-solid fa-quote-left fa-2xl d-inline text-black"></i>
+                                <p class="d-inline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+                                    accusamus ratione ut
+                                    quibusdam quidem! Id animi accusamus minima quidem temporibus culpa, sequi qui nihil
+                                    saepe
+                                    perferendis dolorem inventore laboriosam eaque.</p>
+                                <i class="fa-solid fa-quote-right fa-2xl d-inline text-black"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- End Client -->
+    <!-- Start contact -->
+    <section id="contact" class="position-relative">
+        <div class="container">
+            <div class="cons  text-center mb-5">
+                <h2 class="special-heading py-4">G</h2>
+                <p class="display-1 fw-bold">Get In Touch</p>
+                <div></div>
+                <p class="w-75 text-secondary mx-auto mt-2">Pellentesque elementum libero enim, eget gravida nunc
+                    laoreet et.
+                    Nullam ac enim
+                    auctor,
+                    fringilla
+                    risus at, imperdiet
+                    turpis. Pellentesque elementum libero enim.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col p-5">
+                    <h1 class="h3 fw-bold">Get answers and advices from professional consultants.</h1>
+                    <div class="icon d-flex align-items-center py-3">
+                        <div class=" me-4">
+                            <i class="fa-solid fa-map fa-2xl"></i>
+                        </div>
+                        <div class="text my-2">
+                            <h3 class="py-0 my-0">Address</h3>
+                            <p class="py-0 my-0 text-secondary">1650 Lombard Street, San Francisco, CA 94123</p>
+                        </div>
+                    </div>
+                    <div class="icon d-flex align-items-center py-3">
+                        <div class=" me-4">
+                            <i class="fa-solid fa-mobile-screen-button fa-2xl"></i>
+                        </div>
+                        <div class="text my-2">
+                            <h3 class="py-0 my-0">Phone</h3>
+                            <p class="py-0 my-0 text-secondary">+1 (415) 876-3250 / +1 (415) 876-3251</p>
+                        </div>
+                    </div>
+                    <div class="icon d-flex align-items-center py-3">
+                        <div class=" me-4">
+                            <i class="fa-solid fa-envelope fa-2xl"></i>
+                        </div>
+                        <div class="text my-2">
+                            <h3 class="py-0 my-0">Say Hello</h3>
+                            <a href="#" class="py-0 my-0 text-secondary">email@sitename.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-3">
+                    <form action="" class="p-3">
+                        <div>
+                            <input class="px-3 py-3" type="text" placeholder="Name" style="width: 100%;">
+                        </div>
+                        <div class="my-4">
+                            <input class="px-3 py-3" type="text" placeholder="Email" style="width: 100%;">
+                        </div>
+                        <div>
+                            <input class="px-3 py-3" type="text" placeholder="Phone" style="width: 100%;">
+                        </div>
+                        <textarea class="my-4 px-3 py-3" style="width: 100%;height: 90px;"
+                            placeholder="Message"></textarea>
+                        <div class="sumbit">
+                            <i class="fa-brands fa-telegram" style="color: white;margin-right: 5px;"></i>
+                            <a href="#contact">Send Message</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <a href="#home" class="lasticon position-absolute z-2">
+            <i class="fa-solid fa-angle-up fa-lg text-white"></i>
+        </a>
+    </section>
+    <!-- End contact -->
+    <!-- Start Footer  -->
+    <section id="footer" class="py-0 my-0">
+        <div class="container">
+            <div class="image text-center pt-5">
+                <a href="#"><img src="./images/icon.png" alt=""></a>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-2 my-4">
+                <div class="col">
+                    <h3 class="fw-bold text-white mb-4">Contact Info</h3>
+                    <p class="text-secondary w-75">1650 Lombard Street,
+                        San Francisco, CA 94123</p>
+                    <p class="text-secondary">+1 (415) 876-3250</p>
+                    <a href="#" class="gmail text-secondary">email@sitename.com</a>
+                </div>
+                <div class="col">
+                    <h3 class="fw-bold text-white mb-4">Useful Links</h3>
+                    <ul class="text-secondary list-unstyled">
+                        <li><a href="">Support</a></li>
+                        <li class="my-2"><a href="">Privacy Policy</a></li>
+                        <li class="my-2"><a href="">Terms & Conditions</a></li>
+                        <li class="my-2"><a href="">Affiliate Program</a></li>
+                        <li><a href="">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 class="fw-bold text-white mb-4">Recent Posts</h3>
+                    <ul class="text-secondary list-unstyled">
+                        <li><a href="">Sunset in Venice</a></li>
+                        <li class="my-2"><a href="">Aerial View of Village</a></li>
+                        <li class="my-2"><a href="">Lighted Concrete City</a></li>
+                        <li class="my-2"><a href="">The Little Ghost</a></li>
+                        <li><a href="">Royal Oats ft. Waldo</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3 class="fw-bold text-white mb-4">Popular Tags</h3>
+                    <span class="text-secondary border border-1 border-secondary px-2 py-1"><a href="#">HTML5</a></span>
+                    <span class="text-secondary border border-1 border-secondary px-2 py-1"><a href="#">CSS3</a></span>
+                    <span class="text-secondary border border-1 border-secondary px-2 py-1"><a
+                            href="#">JQuery</a></span>
+                    <span class="text-secondary border border-1 border-secondary px-2 py-1"><a href="#">UX /
+                            UI</a></span>
+                    <span class="text-secondary border border-1 border-secondary px-2 py-1"><a href="#">WEB</a></span>
+                    <span class="text-secondary border border-1 border-secondary px-2 py-1"><a
+                            href="#">Graphic</a></span>
+                    <span class="text-secondary border border-1 border-secondary px-2 py-1"><a
+                            href="#">Design</a></span>
+                    <span class="text-secondary border border-1 border-secondary px-2 py-1"><a
+                            href="#">Development</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Footer  -->
+    <!-- Start End  -->
+    <div class="end bg-black">
+        <div class="container d-flex justify-content-between align-items-center py-4 px-3 text-center">
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-twitter fa-lg  text-white"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f fa-lg  text-white"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-lg text-white"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin fa-lg  text-white"></i></a>
+                <a href="#"><i class="fa-solid fa-baseball fa-lg  text-white"></i></a>
+            </div>
+            <div class="text">
+                <p class="text-secondary">Copyright © 2020 <span><a href="#">Angora</a></span></p>
+            </div>
+        </div>
+    </div>
+    <!-- end End  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
